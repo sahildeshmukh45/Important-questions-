@@ -10,6 +10,11 @@ import java.util.Scanner;
        }
      }
      System.out.println(addu);
+    if(addu==no){
+     System.out.println("perfect no");
+    }else{
+     System.out.println("Not a perfect no");
+    }
      input.close();
    }
  }  
